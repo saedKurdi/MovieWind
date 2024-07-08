@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Movie Wind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Wind is a web application built with TypeScript, Vite, and React that allows users to search for movies, view details about them, including cast and crew information, and navigate through paginated movie results.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search Movies:** Search for movies using keywords.
+- **View Details:** Select a movie to view more detailed information.
+- **Cast and Crew:** See the actors and crew involved in each movie.
+- **Pagination:** Navigate through multiple pages of search results.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **TypeScript:** Ensures type safety and improves code quality.
+- **Vite:** Fast build tool that supports React and TypeScript out of the box.
+- **React:** JavaScript library for building user interfaces.
+- **APIs:** Integrates with movie database APIs (e.g., TMDB, IMDb) for fetching movie data.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To get a local copy of this project up and running, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd movie-wind
